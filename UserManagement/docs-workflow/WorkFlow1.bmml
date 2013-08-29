@@ -1,0 +1,9 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1158" measuredH="707" mockupW="1118" mockupH="670">
+  <controls>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::SiteMap" x="40" y="37" w="-1" h="-1" measuredW="1118" measuredH="670" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Home%0A-%20Products%0A-%20About%20Us%0A-%20Registration%0A--%20Test%20User%0A---Login%0A-%20Login%0A--User%0A---Buy%20orView%20products%20details%0A----Make%20transactions%0A-----Receive%20ordered%20products%0A----View%20a%20shopping%20cart%0A--Admin%0A---Add%20products%0A---Update%20the%20stock%0A---View%20available%20stock</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

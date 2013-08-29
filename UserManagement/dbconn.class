@@ -1,0 +1,25 @@
+<?php
+class Dbconn
+{
+
+public $queryString;
+protected $dbHostname = " localhost ";
+private $connectionHandle;
+
+function stablishConnection()
+{
+	$conn = new MySQLi('localhost','root',' ','usersdb');
+	return $conn;
+}
+function execute($email,$password,$username)
+{
+	$queryString ='
+INSERT INTO users(username, password, email)
+VALUES ("'. $username. '", "'. md5($password).'", "'. $email.')
+'; 
+	return $queryString;
+}
+
+}
+
+?>
